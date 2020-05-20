@@ -1,0 +1,10 @@
+<% provide :title, t("home") %>
+<div class="center jumbotron">
+  <%= t("hello_html") %>
+  <h2>
+    This is the homepage for the
+    <%= link_to "Ruby on Rails Tutorial", "http://www.railstutorial.org" %>
+    sample application.
+  </h2>
+  <%= link_to t("signup"), "#", class:"btn btn-lg btn-primary"%>
+</div>
