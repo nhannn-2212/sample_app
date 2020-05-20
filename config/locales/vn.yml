@@ -1,0 +1,43 @@
+vn:
+  sample_app: "Sample App"
+  hello: "Xin chao"
+  hello_html: <h1>Xin chao</h1>
+  base_title: "Huong dan RoR"
+  welcome: "Chao mung ban den voi website"
+  home: "Trang chu"
+  help: "Giup do"
+  help_html: <h2>Tro giup</h2>
+  contact: "Lien lac"
+  signup: "Dang ki"
+  signup_html: <h1>Dang ki</h1>
+  login: "Dang nhap"
+  get_help_html: <p>Huong dan Ruby on Rails <a href="http://www.railstutorial.org/help">Rails Tutorial help page"</a> Moi thac mac ve trang web, xem tai <em><a href='http://www.railstutorial.org/help'>Ruby on Rails Tutorial book</a></em></p>
+  home_html: <h2>
+    Day la trang chu cua <a href="http://www.railstutorial.org">Ruby on Rails Tutorial</a></h2>
+  form_contains: "Bieu mau chua $%{count} loi"
+  error:
+    invalid_ID: "ID nguoi dung khong ton tai"
+  users:
+    new:
+      name: "Ho ten"
+      email: "Email"
+      pwd: "Mat khau"
+      pwd_cfm: "Xac nhan mat khau"
+      register: "Dang ky"
+
+  #active record translation
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              invalid: "Email khong hop le"
+              blank: "Email khong duoc de trong"
+            name:
+              invalid: "Ho ten khong hop le"
+              blank: "Ho ten khong duoc de trong"
+            password:
+              invalid: "Password khong hop le"
+              blank: "Password khong duoc de trong"
+              too_short: "Password qua ngan"
