@@ -31,3 +31,23 @@
 
 en:
   hello: "Hello world"
+  hello_html: <h1>Hello world</h1>
+  base_title: "Ruby on Rails Tutorial Sample App"
+  home: "Home"
+  help: "Help"
+  help_html: <h2>Help</h2>
+  contact: "Contact"
+  signup: "Sign Up"
+  login: "Log In"
+  get_help_html: <p>Get help on the Ruby on Rails Tutorial at the <a href="http://www.railstutorial.org/help">Rails Tutorial help page"</a> To get help on this sample app, see the <em><a href='http://www.railstutorial.org/help'>Ruby on Rails Tutorial book</a></em></p>
+vn:
+  hello: "Xin chao"
+  hello_html: <h1>Xin chao</h1>
+  base_title: "Huong dan RoR"
+  home: "Trang chu"
+  help: "Giup do"
+  help_html: <h2>Tro giup</h2>
+  contact: "Lien lac"
+  signup: "Dang ki"
+  login: "Dang nhap"
+  get_help_html: <p>Huong dan Ruby on Rails <a href="http://www.railstutorial.org/help">Rails Tutorial help page"</a> Moi thac mac ve trang web, xem tai <em><a href='http://www.railstutorial.org/help'>Ruby on Rails Tutorial book</a></em></p>
