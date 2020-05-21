@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%provide :title,"Home"%>
 <div class="center jumbotron">
   <h1>Welcome to the sample app</h1>
@@ -8,3 +9,15 @@
   <%= link_to "Sign up now!", signup_path, class:"btn btn-lg btn-primary"%>
 </div>
 
+=======
+<% provide :title, t("home") %>
+<div class="center jumbotron">
+  <%= t("hello_html") %>
+  <h2>
+    This is the homepage for the
+    <%= link_to "Ruby on Rails Tutorial", "http://www.railstutorial.org" %>
+    sample application.
+  </h2>
+  <%= link_to t("signup"), signup_path, class:"btn btn-lg btn-primary"%>
+</div>
+>>>>>>> e09feafdf25b6a58482e89ca7836e6b055d56224
