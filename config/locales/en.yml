@@ -30,6 +30,7 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  sample_app: "Sample App"
   hello: "Hello world"
   hello_html: <h1>Hello world</h1>
   base_title: "Ruby on Rails Tutorial Sample App"
@@ -38,9 +39,13 @@ en:
   help_html: <h2>Help</h2>
   contact: "Contact"
   signup: "Sign Up"
+  signup_html: <h1>Sign up</h1>
   login: "Log In"
   get_help_html: <p>Get help on the Ruby on Rails Tutorial at the <a href="http://www.railstutorial.org/help">Rails Tutorial help page"</a> To get help on this sample app, see the <em><a href='http://www.railstutorial.org/help'>Ruby on Rails Tutorial book</a></em></p>
+  home_html: <h2>This is the homepage for the <a href="http://www.railstutorial.org">Ruby on Rails Tutorial</a>
+    sample application.</h2>
 vn:
+  sample_app: "Sample App"
   hello: "Xin chao"
   hello_html: <h1>Xin chao</h1>
   base_title: "Huong dan RoR"
@@ -49,5 +54,8 @@ vn:
   help_html: <h2>Tro giup</h2>
   contact: "Lien lac"
   signup: "Dang ki"
+  signup_html: <h1>Dang ki</h1>
   login: "Dang nhap"
   get_help_html: <p>Huong dan Ruby on Rails <a href="http://www.railstutorial.org/help">Rails Tutorial help page"</a> Moi thac mac ve trang web, xem tai <em><a href='http://www.railstutorial.org/help'>Ruby on Rails Tutorial book</a></em></p>
+  home_html: <h2>
+    Day la trang chu cua <a href="http://www.railstutorial.org">Ruby on Rails Tutorial</a></h2>
