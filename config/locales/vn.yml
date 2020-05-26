@@ -23,6 +23,7 @@ vn:
   success:
     update_profile: "Cap nhat thong tin thanh cong"
     delete_user: "Da xoa nguoi dung"
+    account_activated: "Tai khoan da duoc kich hoat!"
 
   error:
     invalid_ID: "ID nguoi dung khong ton tai"
@@ -31,6 +32,13 @@ vn:
     pls_login: "Vui long dang nhap"
     delete_user: "Khong the xoa nguoi dung"
     no_permit: "Ban khong co quyen truy cap"
+    invalid_activation_link: "Link kich hoat khong hop le"
+
+  info:
+    check_email_activation: "Vui long kich hoat thu xac nhan."
+
+  warning:
+    account_activated: "Tai khoan chua duoc kich hoat. Vui long kiem tra email"
 
   users:
     text: "Nguoi dung"
@@ -53,6 +61,13 @@ vn:
     user:
       cfm: "Ban co chac chan muon xoa nguoi dung nay?"
       delete: "Xoa"
+
+  layouts:
+    form_user:
+      name: "Ho ten"
+      email: "Email"
+      pwd: "Mat khau"
+      pwd_cfm: "Xac nhan mat khau"
 
   #active record translation
   activerecord:
@@ -80,3 +95,6 @@ vn:
     new:
       new_user?: "Chua co tai khoan?"
       signup_now!: "Dang ky ngay!"
+
+  email:
+    subject_account_activation: "Kich hoat tai khoan"

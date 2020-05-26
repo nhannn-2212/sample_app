@@ -1,0 +1,8 @@
+<h1>Sample App</h1>
+<p>Xin chao <%= @user.name %>,</p>
+<p>
+  Chao mung ban den voi Sample App! Vui long nhan vao duong link ben duoi
+  de kich hoat tai khoan.
+</p>
+<%= link_to "Kich hoat",
+edit_account_activation_url(@user.activation_token, email: @user.email) %>

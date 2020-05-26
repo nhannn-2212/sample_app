@@ -23,6 +23,7 @@ en:
   success:
     update_profile: "Profile updated"
     delete_user: "User deleted"
+    account_activated: "Account activated!"
 
   error:
     invalid_ID: "ID is invalid"
@@ -31,6 +32,13 @@ en:
     pls_login: "Please login"
     delete_user: "Can't delete user"
     no_permit: "You don't have permission to access"
+    invalid_activation_link: "Invalid activation link"
+
+  info:
+    check_email_activation: "Please check your email to activate your account."
+
+  warning:
+    account_activated: "Account not activated. Check your email for the activation link."
 
   users:
     text: "Users"
@@ -54,7 +62,14 @@ en:
       cfm: "Are you sure?"
       delete: "Delete"
 
-  #active record translation
+  layouts:
+    form_user:
+      name: "Name"
+      email: "Email"
+      pwd: "Password"
+      pwd_cfm: "Confirmation"
+
+  # active record translation
   activerecord:
     attributes:
       user:
@@ -81,3 +96,7 @@ en:
     new:
       new_user?: "New user?"
       signup_now!: "Sign Up Now!"
+
+  # email translation
+  email:
+    subject_account_activation: "Account Activation"
