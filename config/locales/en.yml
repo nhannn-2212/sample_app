@@ -8,15 +8,20 @@ en:
   help: "Help"
   help_html: <h2>Help</h2>
   contact: "Contact"
+  account: "Account"
+  profile: "Profile"
+  setting: "Setting"
   signup: "Sign Up"
   signup_html: <h1>Sign up</h1>
   login: "Log In"
+  login_html: <h1>Log In</h1>
   get_help_html: <p>Get help on the Ruby on Rails Tutorial at the <a href="http://www.railstutorial.org/help">Rails Tutorial help page"</a> To get help on this sample app, see the <em><a href='http://www.railstutorial.org/help'>Ruby on Rails Tutorial book</a></em></p>
   home_html: <h2>This is the homepage for the <a href="http://www.railstutorial.org">Ruby on Rails Tutorial</a>
     sample application.</h2>
-  form_contains: "The form contains $%{count} error"
+  form_contains: "The form contains %{count} error"
   error:
     invalid_ID: "ID is invalid"
+    invalid_email_password_combination: "Invalid email/password combination"
   users:
     new:
       name: "Name"
@@ -24,3 +29,24 @@ en:
       pwd: "Password"
       pwd_cfm: "Confirmation"
       register: "Register"
+
+  #active record translation
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              invalid: " is invalid"
+              blank: " is blank"
+            name:
+              invalid: " is invalid"
+              blank: " is blank"
+            password:
+              invalid: " is invalid"
+              blank: " is blank"
+              too_short: " is too short"
+  sessions:
+    new:
+      new_user?: "New user?"
+      signup_now!: "Sign Up Now!"

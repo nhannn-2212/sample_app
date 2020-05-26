@@ -2,7 +2,7 @@ class User < ApplicationRecord
   # constant
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
 
-  #validates
+  # validates
   validates :email, presence: true,
     length: {maximum: Settings.email_max_length},
     uniqueness: {case_sensitive: false},
