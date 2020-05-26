@@ -19,6 +19,11 @@ en:
   home_html: <h2>This is the homepage for the <a href="http://www.railstutorial.org">Ruby on Rails Tutorial</a>
     sample application.</h2>
   form_contains: "The form contains %{count} %{error}"
+  forget_pwd: "Forget password?"
+  forget_pwd_html: <h1>Forget password</h1>
+  submit: "Submit"
+  update_pwd: "Update password"
+  link_expired: "Link reset password is expired"
 
   success:
     update_profile: "Profile updated"
@@ -35,7 +40,10 @@ en:
     invalid_activation_link: "Invalid activation link"
 
   info:
+    user_inactive: "User inactive"
     check_email_activation: "Please check your email to activate your account."
+    sent_reset_pwd_email: "Please check your email to reset password"
+
 
   warning:
     account_activated: "Account not activated. Check your email for the activation link."
@@ -99,4 +107,6 @@ en:
 
   # email translation
   email:
-    subject_account_activation: "Account Activation"
+    subject:
+      account_activation: "Account Activation"
+      password_reset: "Reset password"
