@@ -19,11 +19,21 @@ vn:
   home_html: <h2>
     Day la trang chu cua <a href="http://www.railstutorial.org">Ruby on Rails Tutorial</a></h2>
   form_contains: "Bieu mau chua %{count} loi"
+
+  success:
+    update_profile: "Cap nhat thong tin thanh cong"
+    delete_user: "Da xoa nguoi dung"
+
   error:
     invalid_ID: "ID nguoi dung khong ton tai"
     invalid_email: "Email khong ton tai"
     invalid_email_password_combination: "Email/password khong chinh xac"
+    pls_login: "Vui long dang nhap"
+    delete_user: "Khong the xoa nguoi dung"
+    no_permit: "Ban khong co quyen truy cap"
+
   users:
+    text: "Nguoi dung"
     new:
       name: "Ho ten"
       email: "Email"
@@ -32,9 +42,26 @@ vn:
       register: "Dang ky"
       remember: "Ghi nho"
       remember_me: "Ghi nho tren may tinh nay"
+    edit:
+      edit_user: "Cap nhat thong tin"
+      edit_user_html: <h1>Cap nhat thong tin ca nhan</h1>
+      save: "Luu thay doi"
+      change: "Thay doi avatar"
+    index:
+      all_user: "Danh sach nguoi dung"
+      all_user_html: <h1>Danh sach nguoi dung</h1>
+    user:
+      cfm: "Ban co chac chan muon xoa nguoi dung nay?"
+      delete: "Xoa"
 
   #active record translation
   activerecord:
+    attributes:
+      user:
+        name: "Ho ten"
+        email: "Email"
+        password: "Mat khau"
+        password_confirmation: "Xac nhan mat khau"
     errors:
       models:
         user:
@@ -43,8 +70,8 @@ vn:
               invalid: " khong hop le"
               blank: " khong duoc de trong"
             name:
-              invalid: "Ho ten khong hop le"
-              blank: "Ho ten khong duoc de trong"
+              invalid: " khong hop le"
+              blank: " khong duoc de trong"
             password:
               invalid: " khong hop le"
               blank: " khong duoc de trong"

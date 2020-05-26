@@ -19,11 +19,21 @@ en:
   home_html: <h2>This is the homepage for the <a href="http://www.railstutorial.org">Ruby on Rails Tutorial</a>
     sample application.</h2>
   form_contains: "The form contains %{count} %{error}"
+
+  success:
+    update_profile: "Profile updated"
+    delete_user: "User deleted"
+
   error:
     invalid_ID: "ID is invalid"
     invalid_email: "Email is invalid"
     invalid_email_password_combination: "Invalid email/password combination"
+    pls_login: "Please login"
+    delete_user: "Can't delete user"
+    no_permit: "You don't have permission to access"
+
   users:
+    text: "Users"
     new:
       name: "Name"
       email: "Email"
@@ -32,9 +42,26 @@ en:
       register: "Register"
       remember: "Remember"
       remember_me: "Remember me on this computer"
+    edit:
+      edit_user: "Edit user"
+      edit_user_html: <h1>Update your profile</h1>
+      save: "Save changes"
+      change: "Change"
+    index:
+      all_user: "All users"
+      all_user_html: <h1>All users</h1>
+    user:
+      cfm: "Are you sure?"
+      delete: "Delete"
 
   #active record translation
   activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password Confirmation"
     errors:
       models:
         user:
@@ -49,6 +76,7 @@ en:
               invalid: " is invalid"
               blank: " is blank"
               too_short: " is too short"
+
   sessions:
     new:
       new_user?: "New user?"
