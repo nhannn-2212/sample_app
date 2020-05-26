@@ -1,3 +1,4 @@
+Rails.application.routes.default_url_options[:host] = "localhost:3000"
 Rails.application.routes.draw do
   root "static_pages#home"
 
@@ -9,4 +10,5 @@ Rails.application.routes.draw do
   delete "/logout", to: "sessions#destroy", as: "logout"
 
   resources :users
+  resources :account_activations, only: :edit
 end
