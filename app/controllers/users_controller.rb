@@ -7,7 +7,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       log_in @user
-      flash[:success] = I18n.t "welcome"
+      flash[:success] = t "welcome"
       redirect_to @user
     else
       render :new
@@ -18,7 +18,7 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
     return if @user
 
-    flash[:danger] = I18n.t "error.invalid_ID"
+    flash[:danger] = t "error.invalid_ID"
     redirect_to action: :new
   end
 

@@ -21,6 +21,7 @@ vn:
   form_contains: "Bieu mau chua %{count} loi"
   error:
     invalid_ID: "ID nguoi dung khong ton tai"
+    invalid_email: "Email khong ton tai"
     invalid_email_password_combination: "Email/password khong chinh xac"
   users:
     new:
@@ -29,6 +30,8 @@ vn:
       pwd: "Mat khau"
       pwd_cfm: "Xac nhan mat khau"
       register: "Dang ky"
+      remember: "Ghi nho"
+      remember_me: "Ghi nho tren may tinh nay"
 
   #active record translation
   activerecord:

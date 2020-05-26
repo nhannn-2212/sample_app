@@ -18,9 +18,10 @@ en:
   get_help_html: <p>Get help on the Ruby on Rails Tutorial at the <a href="http://www.railstutorial.org/help">Rails Tutorial help page"</a> To get help on this sample app, see the <em><a href='http://www.railstutorial.org/help'>Ruby on Rails Tutorial book</a></em></p>
   home_html: <h2>This is the homepage for the <a href="http://www.railstutorial.org">Ruby on Rails Tutorial</a>
     sample application.</h2>
-  form_contains: "The form contains %{count} error"
+  form_contains: "The form contains %{count} %{error}"
   error:
     invalid_ID: "ID is invalid"
+    invalid_email: "Email is invalid"
     invalid_email_password_combination: "Invalid email/password combination"
   users:
     new:
@@ -29,6 +30,8 @@ en:
       pwd: "Password"
       pwd_cfm: "Confirmation"
       register: "Register"
+      remember: "Remember"
+      remember_me: "Remember me on this computer"
 
   #active record translation
   activerecord:
