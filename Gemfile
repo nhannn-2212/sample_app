@@ -27,6 +27,11 @@ gem "bcrypt", "~> 3.1.7"
 # gem config
 gem "config"
 # Use Active Storage variant
+# create sample data
+gem "faker", "1.7.3"
+# Use paginate + bootstrap
+gem "bootstrap-will_paginate", "1.0.0"
+gem "will_paginate"
 # gem "image_processing", "~> 1.2"
 
 # Reduces boot times through caching; required in config/boot.rb

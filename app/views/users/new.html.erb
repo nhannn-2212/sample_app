@@ -1,23 +1,8 @@
 <%= provide :title, t("signup") %>
+<%= provide :btn_text, t(".register") %>
 <%= t "signup_html" %>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= form_for(@user) do |f| %>
-      <%= render "shared/error_messages" %>
-
-      <%= f.label t ".name" %>
-      <%= f.text_field :name, class: "form-control" %>
-
-      <%= f.label t ".email" %>
-      <%= f.email_field :email, class: "form-control" %>
-
-      <%= f.label t ".pwd" %>
-      <%= f.password_field :password, class: "form-control" %>
-
-      <%= f.label t ".pwd_cfm" %>
-      <%= f.password_field :password_confirmation, class: "form-control" %>
-
-      <%= f.submit t(".register"), class: "btn btn-primary" %>
-    <% end %>
+    <%= render "layouts/form_user" %>
   </div>
 </div>
