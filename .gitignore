@@ -41,8 +41,6 @@ yarn-debug.log*
 .yarn-integrity
 
 # Ignore DB, environment config, test
-/config/database.yml
-/config/environments/development.rb
 /test/mailers/previews/*
 
 config/settings.local.yml
@@ -51,5 +49,8 @@ config/environments/*.local.yml
 
 # Ignore uploaded test images.
 /storage
-
+/public/javascripts/*
 /bin/
+
+# Ignore application configuration
+/config/application.yml

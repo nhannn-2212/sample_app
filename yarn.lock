@@ -3499,9 +3499,9 @@ i18n-js@^3.7.0:
   resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-3.7.0.tgz#84bf7706610f8a2589b3d6b15083a0a38a33dcb7"
   integrity sha512-t5E5iiEqnkb3vy27V73dU3vcjDlmzbusKC5sXcGFOhte3b2BieVLu+qX1kRlyty9QfZADW3iZUSqeeUS9sal5w==
 
-"i18n-js@git+https://github.com/fnando/i18n-js.git":
+"i18n-js@https://github.com/fnando/i18n-js":
   version "3.7.0"
-  resolved "git+https://github.com/fnando/i18n-js.git#b572f10cb682f0cc7fed93384bbe6ebc85212bfd"
+  resolved "https://github.com/fnando/i18n-js#b572f10cb682f0cc7fed93384bbe6ebc85212bfd"
 
 iconv-lite@0.4.24:
   version "0.4.24"

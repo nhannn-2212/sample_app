@@ -44,6 +44,7 @@ gem "file_validators", "~> 2.0", ">= 2.0.2"
 # i18n
 gem "i18n-js"
 gem "rails-i18n"
+gem "figaro"
 
 group :development, :test do
   # Call "byebug" to stop execution and get a debugger console
@@ -57,8 +58,8 @@ group :development do
   gem "web-console", ">= 3.3.0"
   # Spring speeds up development by
   # keeping your application running in the background
-  gem "spring"
-  gem "spring-watcher-listen", "~> 2.0.0"
+  # gem "spring"
+  # gem "spring-watcher-listen", "~> 2.0.0"
   # rubocop
   gem "rubocop", "~> 0.74.0", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false

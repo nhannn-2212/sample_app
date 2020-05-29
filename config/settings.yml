@@ -6,6 +6,7 @@ pass_min_length: 6
 # avatar setting
 avatar_size: 80
 avatar_index_size: 50
+avatar_follow_size: 20
 
 # paginate
 per_page: 10
