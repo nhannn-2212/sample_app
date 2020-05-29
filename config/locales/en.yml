@@ -38,6 +38,12 @@ en:
     delete_user: "Can't delete user"
     no_permit: "You don't have permission to access"
     invalid_activation_link: "Invalid activation link"
+    micropost_created: "Can't create micropost"
+    micropost_deleted: "Can't delete micropost"
+    valid:
+      image:
+        format: "Must be a valid image format"
+        size: "Should be less than %{size} MB"
 
   info:
     user_inactive: "User inactive"

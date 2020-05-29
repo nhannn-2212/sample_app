@@ -36,6 +36,11 @@ gem "will_paginate"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.4.2", require: false
+# check valid file
+gem "file_validators", "~> 2.0", ">= 2.0.2"
+# i18n
+gem "rails-i18n"
+gem "i18n-js"
 
 group :development, :test do
   # Call "byebug" to stop execution and get a debugger console
