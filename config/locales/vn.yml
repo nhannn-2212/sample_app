@@ -20,6 +20,11 @@ vn:
   home_html: <h2>
     Day la trang chu cua <a href="http://www.railstutorial.org">Ruby on Rails Tutorial</a></h2>
   form_contains: "Bieu mau chua %{count} loi"
+  forget_pwd: "Quen mat khau?"
+  forget_pwd_html: "<h1>Quen mat khau<h1>"
+  submit: "Xac nhan"
+  update_pwd: "Update password"
+  link_expired: "Lien ket da het han"
 
   success:
     update_profile: "Cap nhat thong tin thanh cong"
@@ -37,6 +42,8 @@ vn:
 
   info:
     check_email_activation: "Vui long kich hoat thu xac nhan."
+    check_email_activation: "Vui long kich hoat thu xac nhan."
+    sent_reset_pwd_email: "Da gui thu cai dat lai mat khau"
 
   warning:
     account_activated: "Tai khoan chua duoc kich hoat. Vui long kiem tra email"
@@ -70,7 +77,7 @@ vn:
       pwd: "Mat khau"
       pwd_cfm: "Xac nhan mat khau"
 
-  #active record translation
+  # active record translation
   activerecord:
     attributes:
       user:
@@ -92,10 +99,14 @@ vn:
               invalid: " khong hop le"
               blank: " khong duoc de trong"
               too_short: " qua ngan"
+
   sessions:
     new:
       new_user?: "Chua co tai khoan?"
       signup_now!: "Dang ky ngay!"
 
+  # email translation
   email:
-    subject_account_activation: "Kich hoat tai khoan"
+    subject:
+      account_activation: "Kich hoat tai khoan"
+      password_reset: "Cai dat mat khau"

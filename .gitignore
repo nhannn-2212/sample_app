@@ -40,9 +40,10 @@
 yarn-debug.log*
 .yarn-integrity
 
-# Ignore DB
+# Ignore DB, environment config, test
 /config/database.yml
 /config/environments/development.rb
+/test/mailers/previews/*
 
 config/settings.local.yml
 config/settings/*.local.yml
