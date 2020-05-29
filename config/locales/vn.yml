@@ -110,3 +110,20 @@ vn:
     subject:
       account_activation: "Kich hoat tai khoan"
       password_reset: "Cai dat mat khau"
+
+  #datetime translate
+  datetime:
+    distance_in_words:
+      x_minutes: "%{count} phut"
+
+
+      about_x_hours: "%{count} gio"
+
+
+      about_x_days: "%{count} ngay"
+
+
+      about_x_years: "%{count} nam"
+
+
+      x_days: "%{count} ngay"
