@@ -1,4 +1,4 @@
-vn:
+vi:
   sample_app: "Sample App"
   sample_app_html: <h1>Sample App</h1>
   hello: "Xin chao"
@@ -25,11 +25,14 @@ vn:
   submit: "Xac nhan"
   update_pwd: "Update password"
   link_expired: "Lien ket da het han"
+  micropost_feed_html: <h3>Bai dang</h3>
 
   success:
     update_profile: "Cap nhat thong tin thanh cong"
     delete_user: "Da xoa nguoi dung"
     account_activated: "Tai khoan da duoc kich hoat!"
+    micropost_created: "Da tao bai dang"
+    micropost_deleted: "Da xoa bai dang"
 
   error:
     invalid_ID: "ID nguoi dung khong ton tai"
@@ -39,6 +42,11 @@ vn:
     delete_user: "Khong the xoa nguoi dung"
     no_permit: "Ban khong co quyen truy cap"
     invalid_activation_link: "Link kich hoat khong hop le"
+    micropost_created: "Khong the tao bai dang"
+    valid:
+      image:
+        format: "Dinh dang file anh khong hop le"
+        size: "Dung luong file phai nho hon %{size} MB"
 
   info:
     check_email_activation: "Vui long kich hoat thu xac nhan."
@@ -69,6 +77,16 @@ vn:
     user:
       cfm: "Ban co chac chan muon xoa nguoi dung nay?"
       delete: "Xoa"
+    show:
+      microposts_html: <h3>Bai dang %{count}</h3>
+    micropost: "Bai dang"
+
+  micropost:
+    post: "Dang bai"
+    placeholder: "Soan bai dang"
+    time: "Cach day %{time}"
+    cfm: "Ban co chac muon xoa bai dang nay?"
+    delete: "Xoa"
 
   layouts:
     form_user:
@@ -85,6 +103,9 @@ vn:
         email: "Email"
         password: "Mat khau"
         password_confirmation: "Xac nhan mat khau"
+      micropost:
+        content: "Noi dung"
+        image: "Hinh anh"
     errors:
       models:
         user:
@@ -100,6 +121,12 @@ vn:
               blank: " khong duoc de trong"
               too_short: " qua ngan"
 
+        micropost:
+          attributes:
+            content:
+              invalid: " khong hop le"
+              blank: " khong duoc de trong"
+
   sessions:
     new:
       new_user?: "Chua co tai khoan?"
@@ -110,3 +137,20 @@ vn:
     subject:
       account_activation: "Kich hoat tai khoan"
       password_reset: "Cai dat mat khau"
+
+  #datetime translate
+  datetime:
+    distance_in_words:
+      x_minutes: "%{count} phut"
+
+
+      about_x_hours: "%{count} gio"
+
+
+      about_x_days: "%{count} ngay"
+
+
+      about_x_years: "%{count} nam"
+
+
+      x_days: "%{count} ngay"

@@ -2,8 +2,11 @@ class User < ApplicationRecord
   # constant
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
 
-  # attr
+  # attr macro
   attr_accessor :remember_token, :activation_token, :reset_token
+
+  # relation macro
+  has_many :microposts, dependent: :destroy
 
   # validates
   validates :email, presence: true,
@@ -58,8 +61,7 @@ class User < ApplicationRecord
   end
 
   def activate
-    update_attribute :activated, true
-    update_attribute :activated_at, Time.zone.now
+    update_attributes activated: true, activated_at: Time.zone.now
   end
 
   def send_activation_email
@@ -79,6 +81,10 @@ class User < ApplicationRecord
   # kiem tra link reset password co het han hay chua?
   def password_reset_expired?
     reset_sent_at < Settings.time_link_expire.hours.ago
+  end
+
+  def feed
+    microposts.sort_by_created_at
   end
 
   private

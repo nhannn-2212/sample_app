@@ -1,8 +1,23 @@
+# valid user setting
 email_max_length: 50
 name_max_length: 50
 pass_min_length: 6
+
+# avatar setting
 avatar_size: 80
 avatar_index_size: 50
+
+# paginate
 per_page: 10
+
+# time zone
 time_zone: "Hanoi"
 time_link_expire: 2
+
+# valid micropost setting
+content_max_length: 140
+
+# valid image micropost setting
+image_size: 5
+image_type: [image/jpeg, image/gif, image/png]
+image_type_html: "image/jpeg, image/gif, image/png"

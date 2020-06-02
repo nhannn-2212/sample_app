@@ -1,6 +1,23 @@
-<% provide :title, t("home") %>
-<div class="center jumbotron">
-  <%= t "hello_html" %>
-  <%= t "home_html" %>
-  <%= link_to t("signup"), signup_path, class:"btn btn-lg btn-primary"%>
-</div>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <%= t "micropost_feed_html" %>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <% provide :title, t("home") %>
+  <div class="center jumbotron">
+    <%= t "hello_html" %>
+    <%= t "home_html" %>
+    <%= link_to t("signup"), signup_path, class:"btn btn-lg btn-primary"%>
+  </div>
+<% end %>
