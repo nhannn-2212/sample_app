@@ -32,10 +32,18 @@ gem "faker", "1.7.3"
 # Use paginate + bootstrap
 gem "bootstrap-will_paginate", "1.0.0"
 gem "will_paginate"
-# gem "image_processing", "~> 1.2"
-
+# Image processing
+gem "image_processing", "1.9.3"
+gem "mini_magick", "4.9.5"
+# Store image
+gem "active_storage_validations", "0.8.2"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.4.2", require: false
+# check valid file
+gem "file_validators", "~> 2.0", ">= 2.0.2"
+# i18n
+gem "i18n-js"
+gem "rails-i18n"
 
 group :development, :test do
   # Call "byebug" to stop execution and get a debugger console

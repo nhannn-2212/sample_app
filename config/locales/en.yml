@@ -1,5 +1,6 @@
 en:
   sample_app: "Sample App"
+  sample_app_html: <h1>Sample App</h1>
   hello: "Hello world"
   hello_html: <h1>Hello world</h1>
   base_title: "Ruby on Rails Tutorial Sample App"
@@ -24,11 +25,14 @@ en:
   submit: "Submit"
   update_pwd: "Update password"
   link_expired: "Link reset password is expired"
+  micropost_feed_html: <h3>Micropost feed</h3>
 
   success:
     update_profile: "Profile updated"
     delete_user: "User deleted"
     account_activated: "Account activated!"
+    micropost_created: "Created micropost"
+    micropost_deleted: "Micropost deleted"
 
   error:
     invalid_ID: "ID is invalid"
@@ -38,12 +42,16 @@ en:
     delete_user: "Can't delete user"
     no_permit: "You don't have permission to access"
     invalid_activation_link: "Invalid activation link"
+    micropost_created: "Can't create micropost"
+    valid:
+      image:
+        format: "Must be a valid image format"
+        size: "Should be less than %{size} MB"
 
   info:
     user_inactive: "User inactive"
     check_email_activation: "Please check your email to activate your account."
     sent_reset_pwd_email: "Please check your email to reset password"
-
 
   warning:
     account_activated: "Account not activated. Check your email for the activation link."
@@ -69,6 +77,16 @@ en:
     user:
       cfm: "Are you sure?"
       delete: "Delete"
+    show:
+      microposts_html: <h3>Micropost %{count}</h3>
+    micropost: "Micropost"
+
+  micropost:
+    post: "Post"
+    placeholder: "Compose new microposts"
+    time: "Time %{time} ago"
+    cfm: "You sure?"
+    delete: "Delete"
 
   layouts:
     form_user:
@@ -85,6 +103,9 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Password Confirmation"
+      micropost:
+        content: "Content"
+        image: "Image"
     errors:
       models:
         user:
@@ -99,6 +120,11 @@ en:
               invalid: " is invalid"
               blank: " is blank"
               too_short: " is too short"
+        micropost:
+          attributes:
+            micropost:
+              invalid: " is invalid"
+              blank: " is blank"
 
   sessions:
     new:
@@ -110,3 +136,19 @@ en:
     subject:
       account_activation: "Account Activation"
       password_reset: "Reset password"
+
+  # datetime translation
+  datetime:
+    distance_in_words:
+      x_minutes:
+        one: "%{count} minute"
+        other: "%{count} minutes"
+      about_x_hours:
+        one: "%{count} hour"
+        other: "%{count} hours"
+      about_x_days:
+        one: "%{count} day"
+        other: "%{count} days"
+      about_x_years:
+        one: "%{count} year"
+        other: "%{count} years"
