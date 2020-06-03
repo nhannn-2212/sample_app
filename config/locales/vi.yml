@@ -26,6 +26,10 @@ vi:
   update_pwd: "Update password"
   link_expired: "Lien ket da het han"
   micropost_feed_html: <h3>Bai dang</h3>
+  follow: "Theo doi"
+  unfollow: "Huy theo doi"
+  following: "dang theo doi"
+  followers: "nguoi theo doi"
 
   success:
     update_profile: "Cap nhat thong tin thanh cong"
@@ -79,7 +83,7 @@ vi:
       delete: "Xoa"
     show:
       microposts_html: <h3>Bai dang %{count}</h3>
-    micropost: "Bai dang"
+    micropost: "Bai dang: %{count}"
 
   micropost:
     post: "Dang bai"

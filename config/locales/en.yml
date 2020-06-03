@@ -26,6 +26,11 @@ en:
   update_pwd: "Update password"
   link_expired: "Link reset password is expired"
   micropost_feed_html: <h3>Micropost feed</h3>
+  follow: "Follow"
+  unfollow: "Unfollow"
+  following: "following"
+  follower: "follower"
+  followers: "followers"
 
   success:
     update_profile: "Profile updated"
@@ -79,7 +84,7 @@ en:
       delete: "Delete"
     show:
       microposts_html: <h3>Micropost %{count}</h3>
-    micropost: "Micropost"
+    micropost: "Micropost: %{count}"
 
   micropost:
     post: "Post"
@@ -152,3 +157,6 @@ en:
       about_x_years:
         one: "%{count} year"
         other: "%{count} years"
+      x_days:
+        one: "%{count} day"
+        other: "%{count} days"
