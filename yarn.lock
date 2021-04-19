@@ -3499,9 +3499,10 @@ i18n-js@^3.7.0:
   resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-3.7.0.tgz#84bf7706610f8a2589b3d6b15083a0a38a33dcb7"
   integrity sha512-t5E5iiEqnkb3vy27V73dU3vcjDlmzbusKC5sXcGFOhte3b2BieVLu+qX1kRlyty9QfZADW3iZUSqeeUS9sal5w==
 
-"i18n-js@git+https://github.com/fnando/i18n-js.git":
-  version "3.7.0"
-  resolved "git+https://github.com/fnando/i18n-js.git#b572f10cb682f0cc7fed93384bbe6ebc85212bfd"
+"i18n-js@https://github.com/fnando/i18n-js":
+  version "3.8.0"
+  uid "74a9ade03b65a5f6248ed269e26b7fafb380f381"
+  resolved "https://github.com/fnando/i18n-js#74a9ade03b65a5f6248ed269e26b7fafb380f381"
 
 iconv-lite@0.4.24:
   version "0.4.24"
@@ -6749,9 +6750,9 @@ sshpk@^1.7.0:
     tweetnacl "~0.14.0"
 
 ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
-  integrity sha512-3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
+  integrity sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
   dependencies:
     figgy-pudding "^3.5.1"
 
