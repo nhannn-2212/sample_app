@@ -3499,9 +3499,10 @@ i18n-js@^3.7.0:
   resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-3.7.0.tgz#84bf7706610f8a2589b3d6b15083a0a38a33dcb7"
   integrity sha512-t5E5iiEqnkb3vy27V73dU3vcjDlmzbusKC5sXcGFOhte3b2BieVLu+qX1kRlyty9QfZADW3iZUSqeeUS9sal5w==
 
-"i18n-js@git+https://github.com/fnando/i18n-js.git":
-  version "3.7.0"
-  resolved "git+https://github.com/fnando/i18n-js.git#b572f10cb682f0cc7fed93384bbe6ebc85212bfd"
+"i18n-js@https://github.com/fnando/i18n-js":
+  version "3.8.0"
+  uid b6d95822fc66eee3a2453847d8eb908a7b3ce44d
+  resolved "https://github.com/fnando/i18n-js#b6d95822fc66eee3a2453847d8eb908a7b3ce44d"
 
 iconv-lite@0.4.24:
   version "0.4.24"
@@ -5873,9 +5874,9 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     uniq "^1.0.1"
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.30, postcss@^7.0.5, postcss@^7.0.6:
-  version "7.0.31"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.31.tgz#332af45cb73e26c0ee2614d7c7fb02dfcc2bd6dd"
-  integrity sha512-a937VDHE1ftkjk+8/7nj/mrjtmkn69xxzJgRETXdAUU+IgOYPQNJF17haGWbeDxSyk++HA14UA98FurvPyBJOA==
+  version "7.0.36"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
+  integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
